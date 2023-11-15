@@ -3,14 +3,9 @@ import { Link } from "react-router-dom";
 export function BookList() {
 	return (
 		<>
-			<hr
-				style={{
-					margin: "50px 0",
-					border: "none",
-					borderTop: "1px solid #eee",
-				}}
-			/>
-			<h1 className="v" style={{ fontWeight: "bold", fontSize: 50 }}>
+			<h1
+				className="v"
+				style={{ fontWeight: "bold", fontSize: 50, padding: "1rem" }}>
 				Book List Numbers
 			</h1>
 
