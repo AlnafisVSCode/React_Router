@@ -27,20 +27,52 @@ export function Home() {
 	};
 
 	return (
-		<div style={{ padding: "1rem" }}>
+		<div
+			style={{
+				padding: "1rem",
+				backgroundColor: "#f5f5f5",
+				fontFamily: "Arial",
+			}}>
 			<h1
 				className="e"
-				style={{ fontWeight: "bold", fontSize: 50, padding: "1rem" }}>
+				style={{
+					fontWeight: "bold",
+					fontSize: 50,
+					padding: "1rem",
+					color: "#007bff",
+				}}>
 				Home
 			</h1>
-			<button style={{ padding: "0.5rem" }} onClick={generateRandomNumber}>
+			<button
+				style={{
+					padding: "1rem",
+					backgroundColor: "#007bff",
+					color: "#fff",
+					border: "none",
+					borderRadius: "5px",
+					cursor: "pointer",
+				}}
+				onClick={generateRandomNumber}>
 				Generate Random Number
 			</button>
-			<p style={{ padding: "0.5rem" }}>Random Number: {randomNumber}</p>
-			<button style={{ padding: "0.5rem" }} onClick={generateRandomQuote}>
+			<p style={{ padding: "0.5rem", color: "#333" }}>
+				Random Number: {randomNumber}
+			</p>
+			<button
+				style={{
+					padding: "1rem",
+					backgroundColor: "#007bff",
+					color: "#fff",
+					border: "none",
+					borderRadius: "5px",
+					cursor: "pointer",
+				}}
+				onClick={generateRandomQuote}>
 				Generate Random Quote
 			</button>
-			<p style={{ padding: "0.5rem" }}>Random Quote: {randomQuote}</p>
+			<p style={{ padding: "0.5rem", color: "#333" }}>
+				Random Quote: {randomQuote}
+			</p>
 		</div>
 	);
 }
