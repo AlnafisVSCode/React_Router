@@ -24,6 +24,7 @@ const quotes = [
 	"Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
 	"The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
 	"hi this is just a test",
+	"another b this is just a test",
 ];
 
 function generateQuote() {
