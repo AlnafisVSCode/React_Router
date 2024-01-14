@@ -25,6 +25,7 @@ const quotes = [
 	"The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
 	"hi this is just a test",
 	"another b this is just a test",
+	"haha this is just a test",
 ];
 
 function generateQuote() {
