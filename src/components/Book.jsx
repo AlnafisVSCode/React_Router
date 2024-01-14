@@ -26,6 +26,7 @@ const quotes = [
 	"hi this is just a test",
 	"another b this is just a test",
 	"haha this is just a test",
+	"another one this is just a test",
 ];
 
 function generateQuote() {
