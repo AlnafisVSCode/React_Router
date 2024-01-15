@@ -28,6 +28,7 @@ const quotes = [
 	"haha this is just a test",
 	"another one this is just a test",
 	"covid this is just a test",
+	"this is not a test anymore",
 ];
 
 function generateQuote() {
